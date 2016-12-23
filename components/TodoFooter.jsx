@@ -19,7 +19,7 @@ export default class TodoFooter extends React.Component {
 		return (
 			<div className="todo-footer"> 
 				<label>
-					<input checked = { this.props.isAllChecked } ref="checkAll" type="checkbox" onClick = { this._clickHandler } /> 全选 
+					<input checked = { this.props.isAllChecked } ref="checkAll" type="checkbox" onClick = { this._checkedHandler } /> 全选 
 				</label>
 				<span>
 					<span className="text-success">已完成{this.props.taskActivedCount}</span> / 全部{this.props.taskCount}
