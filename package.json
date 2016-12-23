@@ -1,0 +1,37 @@
+{
+  "name": "fluxTodoDemo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.jsx",
+  "scripts": {
+    "start": "webpack-dev-server --progress",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React",
+    "Demo",
+    "Flux",
+    "ToDo"
+  ],
+  "author": "whx",
+  "license": "ISC",
+  "dependencies": {
+    "babel-core": "^6.20.0",
+    "babel-loader": "^6.2.9",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "css-loader": "^0.26.1",
+    "flux": "^3.1.0",
+    "jsx-loader": "^0.13.2",
+    "object-assign": "^4.1.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "sass-loader": "^4.1.0",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.14.0"
+  },
+  "devDependencies": {
+    "open-browser-webpack-plugin": "0.0.3",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
